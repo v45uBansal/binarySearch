@@ -19,7 +19,7 @@ class binarySearchIterative
     }
     public static void main(String args[])
     {
-        ArrayList<Integer>list=new ArrayList<>();
+        ArrayList<Integer>list=new ArrayList<Integer>();
         list.add(10);
         list.add(20);
         list.add(30);
@@ -27,7 +27,7 @@ class binarySearchIterative
         list.add(50);
         list.add(60);
 
-        int key=70;
+        int key=90;
     
         int ans=search(key,list);
         if(ans==-1)
